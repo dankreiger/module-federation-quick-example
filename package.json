@@ -7,9 +7,9 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "mfe:start": "concurrently \"npm start --prefix cart\" \"npm start --prefix products\" \"npm start --prefix container\"",
-    "start": "npm run mfe:start",
-    "postinstall": "(cd cart && npm install); (cd container && npm install); (cd products && npm install)"
+    "start": "concurrently \"npm start --prefix app\" \"npm start --prefix cart\" \"npm start --prefix products\"",
+    "shell": "npm start --prefix shell",
+    "postinstall": "(cd shell && npm install); (cd app && npm install); (cd cart && npm install); (cd products && npm install)"
   },
   "devDependencies": {
     "concurrently": "^5.3.0"
