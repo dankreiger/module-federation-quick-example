@@ -1,8 +1,8 @@
-import faker from 'faker';
+import * as faker from 'faker';
 
 let products = '';
 
-const injectHtml = (html) =>
+const injectHtml = (html: string): string =>
   `<div class="products-container">
     <h1>Microfrontend 1</h1>
     ${html}
@@ -13,4 +13,6 @@ for (let i = 0; i < 5; i++) {
   products += `<div>${name}</div>`;
 }
 
-document.querySelector('#dev-products').innerHTML = injectHtml(products);
+const devProducts = document.querySelector('#dev-products');
+console.log('here');
+if (devProducts) devProducts.innerHTML = injectHtml(products);
