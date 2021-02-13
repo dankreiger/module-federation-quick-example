@@ -3,7 +3,7 @@ import faker from 'faker';
 let products = '';
 
 const injectHtml = (html) =>
-  `<div style="border: 1px dotted red; color: red; padding: 10px;">
+  `<div class="products-container">
     <h1>Microfrontend 1</h1>
     ${html}
   </div>`;
