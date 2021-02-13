@@ -12,7 +12,7 @@
     "postinstall": "(cd cart && npm install); (cd container && npm install); (cd products && npm install)"
   },
   "devDependencies": {
-    "concurrently": "^5.3.0"
+    "concurrently": "5.3.0"
   },
   "engines": {
     "node": ">=14"
