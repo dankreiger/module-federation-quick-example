@@ -1,0 +1,17 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.cart-container {
+  border: 1px dotted red;
+  color: blue; padding: 10px;
+}
+
+.products-container {
+  border: 1px dotted red;
+  color: red; padding: 10px;
+}

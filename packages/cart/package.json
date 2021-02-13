@@ -1,0 +1,24 @@
+{
+  "name": "@microwelpe/cart",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "scripty",
+    "clean": "rimraf lib *.tsbuildinfo",
+    "lint": "scripty",
+    "nuke": "yarn clean && rimraf node_modules",
+    "sort": "sort-package-json",
+    "start": "scripty",
+    "test": "scripty"
+  },
+  "devDependencies": {
+    "faker": "5.1.0"
+  },
+  "scripty": {
+    "path": "../../scripts/packages"
+  }
+}
