@@ -16,7 +16,7 @@
     "test": "scripty"
   },
   "devDependencies": {
-    "faker": "5.1.0"
+    "faker": "5.4.0"
   },
   "scripty": {
     "path": "../../scripts/packages"
