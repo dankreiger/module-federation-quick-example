@@ -1,0 +1,4 @@
+{
+  "files": [],
+  "references": [{ "path": "cart" }, { "path": "container" }, {"products": "products"}]
+}
