@@ -1,9 +1,9 @@
-import faker from 'faker';
+import * as faker from 'faker';
 
-const mount = (el) => {
+const mount = (el: Element): void => {
   let products = '';
 
-  const injectHtml = (html) =>
+  const injectHtml = (html: string): string =>
     `<div class="products-container">
       <h1>Microfrontend 1</h1>
       ${html}

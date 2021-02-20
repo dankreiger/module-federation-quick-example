@@ -1,7 +1,9 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPlugin');
+const base = require('../webpack.base');
 
 module.exports = {
+  ...base,
   mode: 'development',
   devServer: {
     port: 8081,

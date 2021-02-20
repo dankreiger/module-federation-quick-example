@@ -1,6 +1,6 @@
-import faker from 'faker';
+import * as faker from 'faker';
 
-const mount = (el) => {
+const mount = (el: Element): void => {
   el.innerHTML = `
   <div class="cart-container">
     <h1>Microfrontend 2</h1>
