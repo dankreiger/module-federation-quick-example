@@ -1,3 +1,10 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -8,10 +15,12 @@ h1 {
 
 .cart-container {
   border: 1px dotted red;
-  color: blue; padding: 10px;
+  color: blue;
+  padding: 10px;
 }
 
 .products-container {
   border: 1px dotted red;
-  color: red; padding: 10px;
+  color: red;
+  padding: 10px;
 }
